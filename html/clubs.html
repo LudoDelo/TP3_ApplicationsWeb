@@ -1,73 +1,45 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clubs - EchecsPro</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clubs - EchecsPro</title>
+  <link rel="stylesheet" href="../css/clubs.css">
 </head>
-<style>
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f2f2f2;
-}
 
-header {
-  background-color: #303030;
-  color: white;
-  padding: 20px;
-  text-align: center;
-  border-bottom-right-radius: 25px;
-  border-bottom-left-radius: 25px;
-}
-
-header h1 {
-  margin: 0;
-  font-size: 36px;
-}
-
-footer {
-  background-color: #303030;
-  color: white;
-  padding: 10px;
-  text-align: center;
-  border-top-right-radius: 25px;
-  border-top-left-radius: 25px;
-}
-
-.centrer {
-  text-align: center;
-}
-
-.logo {
-  width: 75px;
-  height: auto;
-}
-
-footer a {
-    color: white;
-}
-
-</style>
 <body>
-    <header>
-        <h1>Nos clubs recommandés</h1>
-    </header>
+  <header>
+    <h1>Nos clubs recommandés</h1>
+  </header>
 
-    <!--Inserer le tableau base de donnees ici-->
+  <section id="message">
+    <p>Trouvez des clubs d'échecs près de chez vous ou en ligne grâce à notre outil de recherche !</p>
+  </section>
 
+  <!--Inserer la liste base de donnees ici-->
+
+  <div class="afficherData">
+    <h2 id="root">Clubs</h2>
+    <span id="affichage">
+      <ul id="clubs"></ul>
+    </span>
+  </div>
+
+  <div class="centrer">
+    <img src="../images/imgClub.jpg" height="400px" width="auto" style="border-radius: 5px;" class="imageCentre">
+  </div>
+
+  <footer>
     <div class="centrer">
-        <img src="../images/imgClub.jpg" height="400px" width="auto" style="border-radius: 5px;" class="imageCentre">
+      <img src="../images/logoPiedDePage.png" class="logo">
+      <p>&copy; ÉchecsPro 2023. Tous droits réservés.</p>
+      <a href="../index.html">Retour à l'accueil</a>
     </div>
+  </footer>
 
-    <footer>
-        <div class="centrer">
-          <img src="../images/logoPiedDePage.png" class="logo">
-          <p>&copy; ÉchecsPro 2023. Tous droits réservés.</p>
-          <a href="../index.html">Retour à l'accueil</a>
-        </div>
-    </footer>
+  <script src="../javascript/clubs.js"></script>
 </body>
+
 </html>
