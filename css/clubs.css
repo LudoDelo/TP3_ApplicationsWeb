@@ -5,6 +5,8 @@ body {
     background-color: #c9c9c9;
 }
 
+/* Code de l'en-tete */
+
 header {
     background-color: #303030;
     color: white;
@@ -19,6 +21,8 @@ header h1 {
     font-size: 36px;
 }
 
+/* Code du pied-de-page */
+
 footer {
     background-color: #303030;
     color: white;
@@ -26,6 +30,10 @@ footer {
     text-align: center;
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
+}
+
+footer a {
+    color: white;
 }
 
 .centrer {
@@ -37,9 +45,7 @@ footer {
     height: auto;
 }
 
-footer a {
-    color: white;
-}
+/* Code du paragraphe */
 
 #message {
     background-color: #f9f9f9;
@@ -51,6 +57,8 @@ footer a {
     border-bottom-right-radius: 25px;
     border-bottom-left-radius: 25px;
 }
+
+/* Code de la liste d'affichage des donnees */
 
 .afficherData {
     margin: 20px;
